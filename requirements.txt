@@ -3,6 +3,10 @@ markdown
 reportlab
 langchain
 langchain-openai
+langchain-neo4j
+langgraph
 python-dotenv
 tqdm
 pypdf
+pandas
+neo4j
