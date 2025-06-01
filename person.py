@@ -19,40 +19,36 @@ class AccomplishmentType(str, Enum):
     MANAGED = "MANAGED"
 
 
-class ThingType(str, Enum):
-    """Thing node types (what was accomplished)"""
-    # High overlap nodes (best for team formation)
-    PROJECT = "PROJECT"
-    SYSTEM = "SYSTEM"
-    TEAM = "TEAM"
-    PRODUCT = "PRODUCT"
-
-    # Medium overlap nodes
-    PROCESS = "PROCESS"
-    INITIATIVE = "INITIATIVE"
-
-    # Low overlap nodes (specialized)
-    PAPER = "PAPER"
-    AWARD = "AWARD"
-    ALGORITHM = "ALGORITHM"
-    CODE = "CODE"
-
-
+# Domain nodes for technical areas
 class Domain(str, Enum):
-    """Domain/category for filtering"""
-    AI_ML = "AiMl"
-    INFRASTRUCTURE = "Infrastructure"
-    WEB = "Web"
-    MOBILE = "Mobile"
-    DATA = "Data"
-    PRODUCT = "Product"
-    RESEARCH = "Research"
-    GENERAL = "General"
+    """Domain categories for technical/business areas"""
+    AI = "AI"                           # Machine learning, neural networks, AI systems
+    DATA_ENGINEERING = "DATA_ENGINEERING"  # Data pipelines, ETL, data platforms
+    ANALYTICS = "ANALYTICS"             # BI, reporting, dashboards, data analysis
+    DATABASE = "DATABASE"               # Database systems, storage, optimization
+    WEB = "WEB"                         # Frontend, web applications, web platforms
+    MOBILE = "MOBILE"                   # iOS, Android, mobile applications
+    CLOUD = "CLOUD"                     # AWS, Azure, GCP, cloud architecture
+    DEVOPS = "DEVOPS"                   # CI/CD, deployment, automation
+    SECURITY = "SECURITY"               # Cybersecurity, auth, compliance
+    MICROSERVICES = "MICROSERVICES"     # Service architecture, APIs, distributed systems
+    PLATFORM = "PLATFORM"               # Internal tools, developer platforms
 
+# WorkType nodes for what type of work was done
+class WorkType(str, Enum):
+    """WorkType categories for type of work performed"""
+    SYSTEM = "SYSTEM"           # Technical systems/platforms
+    RESEARCH = "RESEARCH"       # Papers, studies, R&D
+    PRODUCT = "PRODUCT"         # Customer-facing features/apps
+    TEAM = "TEAM"               # Groups of people
+    PROJECT = "PROJECT"         # Time-bounded initiatives
+    PROCESS = "PROCESS"         # Workflows, procedures
+    AWARD = "AWARD"             # Recognition, honors
+    CODE = "CODE"               # Open source, libraries
 
 class Thing(BaseModel):
     """Node representing what was accomplished"""
-    type: ThingType = Field(..., description="Type of thing")
+    type: WorkType = Field(..., description="Type of thing")
     domain: Optional[Domain] = Field(None, description="Domain/category of thing")
 
 
@@ -67,20 +63,6 @@ class Accomplishment(BaseModel):
     duration: Optional[str] = Field(None, description="How long the accomplishment took")
     team_size: Optional[int] = Field(None, description="Size of team involved")
     context: Optional[str] = Field(None, description="Additional context about the accomplishment")
-
-class SkillCategory(str, Enum):
-    """Standardized Skill categories"""
-    AI_ML = "AI/ML"
-    PROGRAMMING = "Programming" 
-    DATA = "Data"
-    INFRASTRUCTURE = "Infrastructure"
-    PRODUCT = "Product"
-    LEADERSHIP = "Leadership"
-    SOFT_SKILLS = "Soft Skills"
-    DESIGN = "Design"
-    MARKETING = "Marketing"
-    FINANCE = "Finance"
-    LEGAL = "Legal"
 
 class SkillName(str, Enum):
     """Standardized skill names"""
@@ -150,13 +132,16 @@ class Level(str, Enum):
 class Skill(BaseModel):
     """Skill node with standardized taxonomy"""
     name: SkillName = Field(..., description="Standardized skill name")
-    category: SkillCategory = Field(..., description="Skill category for organization")
-    description: str = Field(..., description="Additional skill description from resume and other input")
 
 class HasSkill(BaseModel):
     """Relationship between Person and Skill with proficiency"""
     skill: Skill = Field(..., description="The skill")
-    proficiency: int = Field(..., ge=1, le=5, description="Estimated Skill proficiency level (1-5)")
+    proficiency: Optional[int]  = Field(..., ge=1, le=5, description="Skill proficiency level (1-5): "
+                                                                     "1=Beginner (basic familiarity, learning), "
+                                                                     "2=Intermediate (can work with guidance), "
+                                                                     "3=Proficient (can work independently), "
+                                                                     "4=Advanced (can lead others, deep expertise), "
+                                                                     "5=Expert (industry expert, thought leader)")
     years_experience: Optional[int] = Field(None, ge=0, description="Years of experience with this skill")
     context: Optional[str] = Field(None, description="Context where/how skill was used/acquired")
     is_primary: bool = Field(default=False, description="Whether this is a primary/core skill")
