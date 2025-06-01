@@ -141,7 +141,9 @@ class Skill(BaseModel):
     name: SkillName = Field(..., description="Standardized skill name")
 
 class HasSkill(BaseModel):
-    """Relationship between Person and Skill with proficiency"""
+    """
+    Relationship between Person and Skill with proficiency.
+    """
     skill: Skill = Field(..., description="The skill")
     proficiency: Optional[int]  = Field(..., ge=1, le=5, description="Skill proficiency level (1-5): "
                                                                      "1=Beginner (basic familiarity, learning), "
@@ -166,7 +168,8 @@ class Person(BaseModel):
     hire_date: Optional[date] = Field(None, description="Date hired")
     
     # Skills and accomplishments
-    skills: List[HasSkill] = Field(default_factory=list, description="List of skills with proficiency")
+    skills: List[HasSkill] = Field(default_factory=list, description="List of skills with proficiency. "
+                                                                     "Only add skills that are explicitly mentioned")
     accomplishments: List[Accomplishment] = Field(default_factory=list, description="List of accomplishments")
     
     # Career information

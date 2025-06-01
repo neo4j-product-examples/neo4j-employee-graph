@@ -12,54 +12,9 @@
                 "skill": {
                     "name": "JavaScript"
                 },
-                "proficiency": 3,
+                "proficiency": 2,
                 "years_experience": 2,
-                "context": "Used in personal projects and during mobile development internship.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Python"
-                },
-                "proficiency": null,
-                "years_experience": null,
-                "context": null,
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Java"
-                },
-                "proficiency": 1,
-                "years_experience": null,
-                "context": "Basic familiarity from coursework.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Data Engineering"
-                },
-                "proficiency": null,
-                "years_experience": null,
-                "context": null,
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Product Management"
-                },
-                "proficiency": null,
-                "years_experience": null,
-                "context": null,
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Communication"
-                },
-                "proficiency": 3,
-                "years_experience": 1,
-                "context": "Collaborated with senior developers and team members during internships.",
+                "context": "Used in mobile app development and personal projects",
                 "is_primary": false
             }
         ],
@@ -71,7 +26,7 @@
                     "type": "PRODUCT",
                     "domain": "MOBILE"
                 },
-                "impact_description": "Developed a secure banking mobile app using Swift during a 6-month internship, implemented secure authentication.",
+                "impact_description": "Developed a banking mobile app using Swift during a 6-month internship, implemented secure authentication.",
                 "year": 2024,
                 "role": "Junior Mobile Developer",
                 "duration": "6 months",
@@ -88,23 +43,9 @@
                 "impact_description": "Built a social media iOS application as a capstone project, supporting photo sharing and messaging.",
                 "year": 2023,
                 "role": "Mobile Development Intern",
-                "duration": "3 months",
+                "duration": "Summer 2023",
                 "team_size": null,
                 "context": "Social Media Startup internship"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "ios_bootcamp_apps_5BiANRmk",
-                    "type": "PROJECT",
-                    "domain": "MOBILE"
-                },
-                "impact_description": "Built 5 iOS applications including a weather app, to-do list, and photo gallery as part of an iOS development bootcamp.",
-                "year": 2023,
-                "role": "Student",
-                "duration": "3 months",
-                "team_size": null,
-                "context": "CodePath iOS Development Bootcamp"
             },
             {
                 "type": "BUILT",
@@ -113,12 +54,26 @@
                     "type": "PRODUCT",
                     "domain": "MOBILE"
                 },
-                "impact_description": "Contributed to a React Native cross-platform app, learning mobile development best practices.",
+                "impact_description": "Contributed to React Native cross-platform app, learning mobile development best practices.",
                 "year": 2023,
                 "role": "Mobile Development Intern",
-                "duration": "3 months",
+                "duration": "Summer 2023",
                 "team_size": null,
                 "context": "Social Media Startup internship"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "ios_bootcamp_apps_5BiANRmk",
+                    "type": "PRODUCT",
+                    "domain": "MOBILE"
+                },
+                "impact_description": "Built 5 iOS applications including weather app, to-do list, and photo gallery as part of iOS bootcamp.",
+                "year": 2023,
+                "role": "Student",
+                "duration": null,
+                "team_size": null,
+                "context": "CodePath iOS Development Bootcamp"
             }
         ],
         "years_experience": 1,
@@ -127,6 +82,271 @@
             "Social Media Startup"
         ],
         "location": "Boston, MA"
+    },
+    {
+        "id": "MhzMrjwz",
+        "name": "Robert Johnson",
+        "email": "robert.johnson@email.com",
+        "current_title": "Security Engineer",
+        "department": "Engineering",
+        "level": "Senior",
+        "hire_date": null,
+        "skills": [
+            {
+                "skill": {
+                    "name": "Python"
+                },
+                "proficiency": 4,
+                "years_experience": 4,
+                "context": "Used for security automation and scripting",
+                "is_primary": false
+            }
+        ],
+        "accomplishments": [
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "security_monitoring_system_MhzMrjwz",
+                    "type": "SYSTEM",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Detected and prevented 95% of attempted cyber attacks",
+                "year": 2022,
+                "role": "Senior Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At CyberDefense Corp"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "zero_trust_authentication_system_MhzMrjwz",
+                    "type": "SYSTEM",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Implemented for 10,000+ employees using modern identity protocols",
+                "year": 2022,
+                "role": "Senior Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At CyberDefense Corp"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "secure_cloud_infrastructure_MhzMrjwz",
+                    "type": "SYSTEM",
+                    "domain": "CLOUD"
+                },
+                "impact_description": "Met SOC2 and HIPAA compliance requirements",
+                "year": 2022,
+                "role": "Senior Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At CyberDefense Corp"
+            },
+            {
+                "type": "LED",
+                "thing": {
+                    "name": "penetration_testing_team_MhzMrjwz",
+                    "type": "TEAM",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Identified vulnerabilities across 200+ production systems",
+                "year": 2021,
+                "role": "Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At Financial Services Inc"
+            },
+            {
+                "type": "SHIPPED",
+                "thing": {
+                    "name": "automated_incident_response_platform_MhzMrjwz",
+                    "type": "PRODUCT",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Reduced security breach response time by 70%",
+                "year": 2021,
+                "role": "Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At Financial Services Inc"
+            },
+            {
+                "type": "PUBLISHED",
+                "thing": {
+                    "name": "security_research_APT_MhzMrjwz",
+                    "type": "RESEARCH",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Presented at DefCon conference",
+                "year": 2021,
+                "role": "Security Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "At Financial Services Inc"
+            },
+            {
+                "type": "WON",
+                "thing": {
+                    "name": "security_excellence_award_MhzMrjwz",
+                    "type": "AWARD",
+                    "domain": "SECURITY"
+                },
+                "impact_description": "Outstanding contribution to organizational security posture",
+                "year": 2020,
+                "role": "Junior Security Analyst",
+                "duration": null,
+                "team_size": null,
+                "context": "At Government Contractor"
+            }
+        ],
+        "years_experience": 5,
+        "previous_companies": [
+            "CyberDefense Corp",
+            "Financial Services Inc",
+            "Government Contractor"
+        ],
+        "location": "Washington, DC"
+    },
+    {
+        "id": "ZIMWCRHs",
+        "name": "Lisa Wang",
+        "email": "lisa.wang@email.com",
+        "current_title": "Senior Data Analyst",
+        "department": "Data Science",
+        "level": null,
+        "hire_date": null,
+        "skills": [
+            {
+                "skill": {
+                    "name": "SQL"
+                },
+                "proficiency": 3,
+                "years_experience": 3,
+                "context": "Used for analytics and market research analysis",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Python"
+                },
+                "proficiency": 2,
+                "years_experience": 2,
+                "context": "Used for analytics and market research analysis",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Data Analysis"
+                },
+                "proficiency": 3,
+                "years_experience": 3,
+                "context": "Professional experience as Data Analyst",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Statistics"
+                },
+                "proficiency": 2,
+                "years_experience": 2,
+                "context": "Applied in statistical modeling and analytics",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "R"
+                },
+                "proficiency": 1,
+                "years_experience": 1,
+                "context": "Technical skill listed",
+                "is_primary": false
+            },
+            {
+                "skill": {
+                    "name": "Business Intelligence"
+                },
+                "proficiency": 1,
+                "years_experience": 1,
+                "context": "Used for reporting and dashboarding",
+                "is_primary": false
+            },
+            {
+                "skill": {
+                    "name": "Machine Learning"
+                },
+                "proficiency": 1,
+                "years_experience": null,
+                "context": "Basic knowledge",
+                "is_primary": false
+            }
+        ],
+        "accomplishments": [
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "executive_dashboard_ZIMWCRHs",
+                    "type": "PRODUCT",
+                    "domain": "ANALYTICS"
+                },
+                "impact_description": "Dashboard tracked key business metrics for C-suite decision making.",
+                "year": 2023,
+                "role": "Senior Data Analyst",
+                "duration": null,
+                "team_size": null,
+                "context": "E-commerce Giant"
+            },
+            {
+                "type": "LED",
+                "thing": {
+                    "name": "ab_testing_framework_ZIMWCRHs",
+                    "type": "PROCESS",
+                    "domain": "ANALYTICS"
+                },
+                "impact_description": "Supported product team's experimentation needs.",
+                "year": 2023,
+                "role": "Senior Data Analyst",
+                "duration": null,
+                "team_size": null,
+                "context": "E-commerce Giant"
+            },
+            {
+                "type": "SHIPPED",
+                "thing": {
+                    "name": "automated_reporting_system_ZIMWCRHs",
+                    "type": "SYSTEM",
+                    "domain": "ANALYTICS"
+                },
+                "impact_description": "Reduced manual analysis time by 80%.",
+                "year": 2023,
+                "role": "Product Data Analyst",
+                "duration": null,
+                "team_size": null,
+                "context": "Mobile App Startup"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "statistical_models_churn_ZIMWCRHs",
+                    "type": "CODE",
+                    "domain": "ANALYTICS"
+                },
+                "impact_description": "Predicted customer churn, enabling proactive retention strategies.",
+                "year": 2023,
+                "role": "Product Data Analyst",
+                "duration": null,
+                "team_size": null,
+                "context": "Mobile App Startup"
+            }
+        ],
+        "years_experience": 3,
+        "previous_companies": [
+            "Mobile App Startup",
+            "Consulting Firm"
+        ],
+        "location": "New York, NY"
     },
     {
         "id": "kkkMTAId",
@@ -143,17 +363,8 @@
                 },
                 "proficiency": 4,
                 "years_experience": 4,
-                "context": "Frontend and backend web development for multiple companies",
+                "context": "Frontend and backend web development using modern JavaScript frameworks",
                 "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Python"
-                },
-                "proficiency": null,
-                "years_experience": null,
-                "context": null,
-                "is_primary": false
             },
             {
                 "skill": {
@@ -170,7 +381,7 @@
                 },
                 "proficiency": 3,
                 "years_experience": 2,
-                "context": "Infrastructure and deployment automation",
+                "context": "Cloud deployment and CI/CD pipeline implementation",
                 "is_primary": false
             },
             {
@@ -179,7 +390,7 @@
                 },
                 "proficiency": 2,
                 "years_experience": 1,
-                "context": "Implemented CI/CD pipelines",
+                "context": "CI/CD pipeline automation",
                 "is_primary": false
             },
             {
@@ -189,15 +400,6 @@
                 "proficiency": 2,
                 "years_experience": 2,
                 "context": "Led frontend team and managed projects",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Data Engineering"
-                },
-                "proficiency": null,
-                "years_experience": null,
-                "context": null,
                 "is_primary": false
             }
         ],
@@ -211,7 +413,7 @@
                 },
                 "impact_description": "Developed e-commerce platform using React and Node.js, handling 10K+ concurrent users",
                 "year": 2022,
-                "role": "Full-Stack Developer",
+                "role": "Developer",
                 "duration": null,
                 "team_size": null,
                 "context": "WebTech Solutions"
@@ -225,7 +427,7 @@
                 },
                 "impact_description": "Built microservices architecture with 15 REST APIs, improving system performance by 60%",
                 "year": 2022,
-                "role": "Full-Stack Developer",
+                "role": "Developer",
                 "duration": null,
                 "team_size": null,
                 "context": "WebTech Solutions"
@@ -233,7 +435,7 @@
             {
                 "type": "LED",
                 "thing": {
-                    "name": "frontend_team_customer_portal_kkkMTAId",
+                    "name": "frontend_team_redesign_kkkMTAId",
                     "type": "TEAM",
                     "domain": "WEB"
                 },
@@ -253,7 +455,7 @@
                 },
                 "impact_description": "Shipped mobile-responsive web application for healthcare startup, serving 100K+ patients",
                 "year": 2021,
-                "role": "Full-Stack Developer",
+                "role": "Developer",
                 "duration": null,
                 "team_size": null,
                 "context": "HealthTech Startup"
@@ -267,7 +469,7 @@
                 },
                 "impact_description": "Optimized database queries and application performance, reducing page load times by 45%",
                 "year": 2021,
-                "role": "Full-Stack Developer",
+                "role": "Developer",
                 "duration": null,
                 "team_size": null,
                 "context": "HealthTech Startup"
@@ -281,7 +483,7 @@
                 },
                 "impact_description": "Implemented CI/CD pipeline using Docker and AWS, automating deployment process",
                 "year": 2020,
-                "role": "Junior Web Developer",
+                "role": "Developer",
                 "duration": null,
                 "team_size": null,
                 "context": "Digital Agency"
@@ -296,561 +498,158 @@
         "location": "Austin, TX"
     },
     {
-        "id": "ZIMWCRHs",
-        "name": "Lisa Wang",
-        "email": "lisa.wang@email.com",
-        "current_title": "Senior Data Analyst",
+        "id": "UhZn6uYW",
+        "name": "Dr. Amanda Foster",
+        "email": "amanda.foster@email.com",
+        "current_title": "Principal Research Scientist",
         "department": "Data Science",
-        "level": "Mid",
+        "level": "Principal",
         "hire_date": null,
         "skills": [
-            {
-                "skill": {
-                    "name": "Data Analysis"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Used in all analyst roles for business insights and reporting",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "SQL"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Used for querying and data extraction in analytics roles",
-                "is_primary": true
-            },
             {
                 "skill": {
                     "name": "Python"
                 },
-                "proficiency": 3,
-                "years_experience": 2,
-                "context": "Used for statistical modeling and data processing",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Statistics"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Applied in A/B testing, churn modeling, and analytics",
+                "proficiency": 5,
+                "years_experience": 10,
+                "context": "Used for AI/ML research and development",
                 "is_primary": true
             },
             {
                 "skill": {
-                    "name": "R"
+                    "name": "Machine Learning"
                 },
-                "proficiency": 2,
-                "years_experience": 1,
-                "context": "Used for data analysis and visualization",
-                "is_primary": false
+                "proficiency": 5,
+                "years_experience": 8,
+                "context": "Research and development in AI, computer vision, and NLP",
+                "is_primary": true
             },
             {
                 "skill": {
-                    "name": "Business Intelligence"
+                    "name": "Deep Learning"
                 },
-                "proficiency": 3,
-                "years_experience": 1,
-                "context": "Used for dashboarding and reporting",
-                "is_primary": false
+                "proficiency": 5,
+                "years_experience": 6,
+                "context": "PhD research and professional work in computer vision and NLP",
+                "is_primary": true
             },
             {
                 "skill": {
-                    "name": "Data Science"
+                    "name": "Computer Vision"
                 },
-                "proficiency": 2,
-                "years_experience": 1,
-                "context": "Basic machine learning and statistical modeling",
-                "is_primary": false
-            }
-        ],
-        "accomplishments": [
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "executive_dashboard_ZIMWCRHs",
-                    "type": "PRODUCT",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Enabled C-suite to track key business metrics for better decision making",
-                "year": 2023,
-                "role": "Builder",
-                "duration": null,
-                "team_size": null,
-                "context": "At E-commerce Giant"
-            },
-            {
-                "type": "LED",
-                "thing": {
-                    "name": "ab_testing_framework_ZIMWCRHs",
-                    "type": "SYSTEM",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Supported product team's experimentation needs with robust A/B testing",
-                "year": 2023,
-                "role": "Lead Analyst",
-                "duration": null,
-                "team_size": null,
-                "context": "At E-commerce Giant"
-            },
-            {
-                "type": "SHIPPED",
-                "thing": {
-                    "name": "automated_reporting_system_ZIMWCRHs",
-                    "type": "SYSTEM",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Reduced manual analysis time by 80%",
-                "year": 2022,
-                "role": "Analyst",
-                "duration": null,
-                "team_size": null,
-                "context": "At Mobile App Startup"
-            },
-            {
-                "type": "OPTIMIZED",
-                "thing": {
-                    "name": "user_retention_features_ZIMWCRHs",
-                    "type": "PROJECT",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Identified features that increased user retention by 30%",
-                "year": 2022,
-                "role": "Analyst",
-                "duration": null,
-                "team_size": null,
-                "context": "At Mobile App Startup"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "churn_prediction_models_ZIMWCRHs",
-                    "type": "CODE",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Enabled proactive retention strategies through churn prediction",
-                "year": 2022,
-                "role": "Analyst",
-                "duration": null,
-                "team_size": null,
-                "context": "At Mobile App Startup"
-            },
-            {
-                "type": "PUBLISHED",
-                "thing": {
-                    "name": "market_research_analysis_ZIMWCRHs",
-                    "type": "RESEARCH",
-                    "domain": "ANALYTICS"
-                },
-                "impact_description": "Provided insights for client presentations",
-                "year": 2021,
-                "role": "Intern",
-                "duration": null,
-                "team_size": null,
-                "context": "At Consulting Firm"
-            }
-        ],
-        "years_experience": 3,
-        "previous_companies": [
-            "Mobile App Startup",
-            "Consulting Firm"
-        ],
-        "location": "New York, NY"
-    },
-    {
-        "id": "MhzMrjwz",
-        "name": "Robert Johnson",
-        "email": "robert.johnson@email.com",
-        "current_title": "Senior Security Engineer",
-        "department": "Engineering",
-        "level": "Senior",
-        "hire_date": null,
-        "skills": [
-            {
-                "skill": {
-                    "name": "Leadership"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Led penetration testing team at Financial Services Inc",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Team Management"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Led penetration testing team at Financial Services Inc",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Communication"
-                },
-                "proficiency": 4,
+                "proficiency": 5,
                 "years_experience": 5,
-                "context": "Presented research at DefCon, cross-team security work",
-                "is_primary": false
+                "context": "Research and model development",
+                "is_primary": true
             },
             {
                 "skill": {
-                    "name": "Python"
+                    "name": "Natural Language Processing"
                 },
                 "proficiency": 4,
                 "years_experience": 4,
-                "context": "Security automation, incident response",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "AWS"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Architected secure cloud infrastructure",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Cloud Architecture"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Architected secure cloud infrastructure meeting compliance",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Data Engineering"
-                },
-                "proficiency": 3,
-                "years_experience": 2,
-                "context": "Built security monitoring and incident response systems",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Statistics"
-                },
-                "proficiency": 3,
-                "years_experience": 2,
-                "context": "Threat detection and analysis",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Project Management"
-                },
-                "proficiency": 3,
-                "years_experience": 2,
-                "context": "Managed security projects and compliance initiatives",
+                "context": "Research and model development",
                 "is_primary": false
             }
         ],
         "accomplishments": [
             {
-                "type": "BUILT",
+                "type": "PUBLISHED",
                 "thing": {
-                    "name": "security_monitoring_system_MhzMrjwz",
-                    "type": "SYSTEM",
-                    "domain": "SECURITY"
+                    "name": "15_peer_reviewed_papers_UhZn6uYW",
+                    "type": "RESEARCH",
+                    "domain": "AI"
                 },
-                "impact_description": "Detected and prevented 95% of attempted cyber attacks",
-                "year": 2022,
-                "role": "Builder/Engineer",
-                "duration": "Ongoing",
-                "team_size": 3,
-                "context": "CyberDefense Corp"
+                "impact_description": "Published 15 peer-reviewed papers on computer vision and NLP, cited 500+ times in academic literature.",
+                "year": null,
+                "role": "Principal Research Scientist",
+                "duration": "2021-Present",
+                "team_size": null,
+                "context": "AI Research Institute"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "zero_trust_authentication_MhzMrjwz",
-                    "type": "SYSTEM",
-                    "domain": "SECURITY"
+                    "name": "imagenet_model_UhZn6uYW",
+                    "type": "CODE",
+                    "domain": "AI"
                 },
-                "impact_description": "Enabled secure authentication for 10,000+ employees using modern identity protocols",
-                "year": 2022,
-                "role": "Architect/Implementer",
-                "duration": "6 months",
-                "team_size": 4,
-                "context": "CyberDefense Corp"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "secure_cloud_infrastructure_MhzMrjwz",
-                    "type": "SYSTEM",
-                    "domain": "CLOUD"
-                },
-                "impact_description": "Met SOC2 and HIPAA compliance requirements",
-                "year": 2022,
-                "role": "Architect",
-                "duration": "6 months",
-                "team_size": 3,
-                "context": "CyberDefense Corp"
+                "impact_description": "Built state-of-the-art image recognition model achieving top-3 accuracy on ImageNet benchmark.",
+                "year": null,
+                "role": "Principal Research Scientist",
+                "duration": "2021-Present",
+                "team_size": null,
+                "context": "AI Research Institute"
             },
             {
                 "type": "LED",
                 "thing": {
-                    "name": "penetration_testing_team_MhzMrjwz",
+                    "name": "multimodal_ai_team_UhZn6uYW",
                     "type": "TEAM",
-                    "domain": "SECURITY"
+                    "domain": "AI"
                 },
-                "impact_description": "Identified vulnerabilities across 200+ production systems",
-                "year": 2021,
-                "role": "Team Lead",
-                "duration": "2 years",
-                "team_size": 5,
-                "context": "Financial Services Inc"
+                "impact_description": "Led research team of 6 PhD students and postdocs investigating multimodal AI systems.",
+                "year": null,
+                "role": "Principal Research Scientist",
+                "duration": "2021-Present",
+                "team_size": 6,
+                "context": "AI Research Institute"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "novel_nn_architecture_UhZn6uYW",
+                    "type": "CODE",
+                    "domain": "AI"
+                },
+                "impact_description": "Developed novel neural network architecture for language understanding, open-sourced for research community.",
+                "year": null,
+                "role": "Research Scientist",
+                "duration": "2018-2021",
+                "team_size": null,
+                "context": "Tech Giant Research Lab"
             },
             {
                 "type": "SHIPPED",
                 "thing": {
-                    "name": "incident_response_platform_MhzMrjwz",
+                    "name": "image_analysis_prototype_UhZn6uYW",
                     "type": "PRODUCT",
-                    "domain": "SECURITY"
+                    "domain": "AI"
                 },
-                "impact_description": "Reduced security breach response time by 70%",
-                "year": 2021,
-                "role": "Engineer",
-                "duration": "1 year",
-                "team_size": 3,
-                "context": "Financial Services Inc"
-            },
-            {
-                "type": "PUBLISHED",
-                "thing": {
-                    "name": "security_research_APT_MhzMrjwz",
-                    "type": "RESEARCH",
-                    "domain": "SECURITY"
-                },
-                "impact_description": "Presented at DefCon conference",
-                "year": 2021,
-                "role": "Author/Presenter",
-                "duration": "3 months",
-                "team_size": 1,
-                "context": "Financial Services Inc"
+                "impact_description": "Shipped research prototype to production, serving millions of users with real-time image analysis.",
+                "year": null,
+                "role": "Research Scientist",
+                "duration": "2018-2021",
+                "team_size": null,
+                "context": "Tech Giant Research Lab"
             },
             {
                 "type": "WON",
                 "thing": {
-                    "name": "security_excellence_award_MhzMrjwz",
+                    "name": "cvpr_best_paper_UhZn6uYW",
                     "type": "AWARD",
-                    "domain": "SECURITY"
+                    "domain": "AI"
                 },
-                "impact_description": "Outstanding contribution to organizational security posture",
-                "year": 2020,
-                "role": "Awardee",
-                "duration": null,
+                "impact_description": "Won 'Best Paper Award' at Computer Vision and Pattern Recognition (CVPR) conference.",
+                "year": null,
+                "role": "Postdoctoral Researcher",
+                "duration": "2016-2018",
                 "team_size": null,
-                "context": "Government Contractor"
+                "context": "MIT CSAIL"
             }
         ],
-        "years_experience": 5,
+        "years_experience": 8,
         "previous_companies": [
-            "CyberDefense Corp",
-            "Financial Services Inc",
-            "Government Contractor"
+            "Tech Giant Research Lab",
+            "MIT CSAIL"
         ],
-        "location": "Washington, DC"
-    },
-    {
-        "id": "eOIAxtcB",
-        "name": "Monica Garcia",
-        "email": "monica.garcia@email.com",
-        "current_title": "Senior Database Administrator",
-        "department": "Engineering",
-        "level": "Senior",
-        "hire_date": null,
-        "skills": [
-            {
-                "skill": {
-                    "name": "SQL"
-                },
-                "proficiency": 5,
-                "years_experience": 9,
-                "context": "Used across all roles for database management and optimization",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Data Engineering"
-                },
-                "proficiency": 4,
-                "years_experience": 7,
-                "context": "Specialist in PostgreSQL and distributed database architectures",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Python"
-                },
-                "proficiency": 3,
-                "years_experience": 3,
-                "context": "Used for scripting and automation in database administration",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Leadership"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Managed database team of 4 engineers",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Team Management"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Managed database team of 4 engineers",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Data Analysis"
-                },
-                "proficiency": 3,
-                "years_experience": 6,
-                "context": "Database performance analysis and optimization",
-                "is_primary": false
-            }
-        ],
-        "accomplishments": [
-            {
-                "type": "OPTIMIZED",
-                "thing": {
-                    "name": "postgresql_performance_eOIAxtcB",
-                    "type": "SYSTEM",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Improved query speed by 300% for PostgreSQL database supporting 50M+ daily transactions.",
-                "year": 2021,
-                "role": "Senior Database Administrator",
-                "duration": "Ongoing",
-                "team_size": 4,
-                "context": "Enterprise Data Systems"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "db_replication_system_eOIAxtcB",
-                    "type": "SYSTEM",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Ensured 99.99% availability for mission-critical applications.",
-                "year": 2021,
-                "role": "Senior Database Administrator",
-                "duration": "Several months",
-                "team_size": 4,
-                "context": "Enterprise Data Systems"
-            },
-            {
-                "type": "MANAGED",
-                "thing": {
-                    "name": "database_team_eOIAxtcB",
-                    "type": "TEAM",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Led a team of 4 engineers supporting 100+ production databases.",
-                "year": 2022,
-                "role": "Senior Database Administrator",
-                "duration": "2 years",
-                "team_size": 4,
-                "context": "Enterprise Data Systems"
-            },
-            {
-                "type": "LED",
-                "thing": {
-                    "name": "oracle_to_postgresql_migration_eOIAxtcB",
-                    "type": "PROJECT",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Migrated legacy Oracle systems to modern PostgreSQL infrastructure.",
-                "year": 2019,
-                "role": "Database Administrator",
-                "duration": "Several months",
-                "team_size": 3,
-                "context": "Financial Corp"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "db_backup_disaster_recovery_eOIAxtcB",
-                    "type": "SYSTEM",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Implemented automated backup and disaster recovery system with 15-minute recovery time objective.",
-                "year": 2019,
-                "role": "Database Administrator",
-                "duration": "Several months",
-                "team_size": 3,
-                "context": "Financial Corp"
-            },
-            {
-                "type": "SHIPPED",
-                "thing": {
-                    "name": "db_monitoring_platform_eOIAxtcB",
-                    "type": "PRODUCT",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Provided real-time performance insights to development teams.",
-                "year": 2020,
-                "role": "Database Administrator",
-                "duration": "Several months",
-                "team_size": 3,
-                "context": "Financial Corp"
-            },
-            {
-                "type": "OPTIMIZED",
-                "thing": {
-                    "name": "sqlserver_performance_eOIAxtcB",
-                    "type": "SYSTEM",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Maintained and optimized SQL Server databases for patient management systems.",
-                "year": 2017,
-                "role": "Junior Database Administrator",
-                "duration": "Ongoing",
-                "team_size": 2,
-                "context": "Healthcare Systems"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "db_tuning_procedures_eOIAxtcB",
-                    "type": "PROCESS",
-                    "domain": "DATABASE"
-                },
-                "impact_description": "Developed database performance tuning procedures and documentation.",
-                "year": 2018,
-                "role": "Junior Database Administrator",
-                "duration": "Several months",
-                "team_size": 2,
-                "context": "Healthcare Systems"
-            }
-        ],
-        "years_experience": 9,
-        "previous_companies": [
-            "Enterprise Data Systems",
-            "Financial Corp",
-            "Healthcare Systems"
-        ],
-        "location": "Denver, CO"
+        "location": "Cambridge, MA"
     },
     {
         "id": "WWdJ3ABQ",
         "name": "David Kim",
         "email": "david.kim@email.com",
-        "current_title": "Senior Platform Engineer",
+        "current_title": "DevOps Platform Engineer",
         "department": "Engineering",
         "level": "Senior",
         "hire_date": null,
@@ -859,27 +658,27 @@
                 "skill": {
                     "name": "AWS"
                 },
-                "proficiency": 5,
+                "proficiency": 4,
                 "years_experience": 7,
-                "context": "Cloud infrastructure automation and architecture",
+                "context": "Cloud & Infrastructure: 7 years AWS",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Kubernetes"
                 },
-                "proficiency": 5,
+                "proficiency": 4,
                 "years_experience": 5,
-                "context": "Platform engineering, container orchestration, open-source operator development",
+                "context": "Cloud & Infrastructure: 5 years Kubernetes",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Docker"
                 },
-                "proficiency": 5,
+                "proficiency": 4,
                 "years_experience": 6,
-                "context": "Containerization, orchestration, DevOps pipelines",
+                "context": "Cloud & Infrastructure: 6 years Docker",
                 "is_primary": true
             },
             {
@@ -888,7 +687,7 @@
                 },
                 "proficiency": 4,
                 "years_experience": 7,
-                "context": "Infrastructure automation, scripting, platform tools",
+                "context": "Programming: 7 years Python",
                 "is_primary": false
             },
             {
@@ -897,43 +696,25 @@
                 },
                 "proficiency": 3,
                 "years_experience": null,
-                "context": "Supporting data pipelines on cloud platforms",
+                "context": "Infrastructure automation, DevOps, cloud platforms",
                 "is_primary": false
             },
             {
                 "skill": {
                     "name": "Cloud Architecture"
                 },
-                "proficiency": 5,
-                "years_experience": 7,
-                "context": "Architected multi-region AWS infrastructure",
+                "proficiency": 4,
+                "years_experience": null,
+                "context": "Architected multi-region cloud infrastructure on AWS",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Leadership"
                 },
-                "proficiency": 4,
-                "years_experience": 4,
-                "context": "Managed platform engineering team",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Team Management"
-                },
-                "proficiency": 4,
-                "years_experience": 4,
-                "context": "Led and managed engineering teams",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Project Management"
-                },
                 "proficiency": 3,
-                "years_experience": null,
-                "context": "Led DevOps transformation and platform projects",
+                "years_experience": 4,
+                "context": "Managed platform engineering team of 6 engineers",
                 "is_primary": false
             }
         ],
@@ -945,11 +726,11 @@
                     "type": "SYSTEM",
                     "domain": "PLATFORM"
                 },
-                "impact_description": "Built an enterprise Kubernetes platform supporting 100+ microservices for development teams.",
+                "impact_description": "Built enterprise Kubernetes platform supporting 100+ microservices across development teams.",
                 "year": 2021,
                 "role": "Senior Platform Engineer",
-                "duration": "Ongoing",
-                "team_size": 6,
+                "duration": null,
+                "team_size": null,
                 "context": "CloudNative Tech"
             },
             {
@@ -959,10 +740,10 @@
                     "type": "PROJECT",
                     "domain": "DEVOPS"
                 },
-                "impact_description": "Led DevOps transformation, implementing CI/CD pipelines for 50+ applications.",
+                "impact_description": "Led DevOps transformation initiative, implementing CI/CD pipelines for 50+ applications.",
                 "year": 2019,
                 "role": "DevOps Engineer",
-                "duration": "2 years",
+                "duration": null,
                 "team_size": null,
                 "context": "ScaleUp Inc"
             },
@@ -983,7 +764,7 @@
             {
                 "type": "OPTIMIZED",
                 "thing": {
-                    "name": "cloud_costs_WWdJ3ABQ",
+                    "name": "cloud_infra_costs_WWdJ3ABQ",
                     "type": "PROCESS",
                     "domain": "CLOUD"
                 },
@@ -1002,7 +783,7 @@
                     "domain": "PLATFORM"
                 },
                 "impact_description": "Published open-source Kubernetes operators adopted by 1000+ companies worldwide.",
-                "year": 2018,
+                "year": 2019,
                 "role": "Infrastructure Engineer",
                 "duration": null,
                 "team_size": null,
@@ -1011,241 +792,193 @@
             {
                 "type": "MANAGED",
                 "thing": {
-                    "name": "platform_team_WWdJ3ABQ",
+                    "name": "platform_eng_team_WWdJ3ABQ",
                     "type": "TEAM",
                     "domain": "PLATFORM"
                 },
-                "impact_description": "Managed platform engineering team of 6 engineers supporting the entire engineering organization.",
-                "year": 2022,
-                "role": "Senior Platform Engineer",
-                "duration": "2 years",
-                "team_size": 6,
-                "context": "CloudNative Tech"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "multi_region_aws_infra_WWdJ3ABQ",
-                    "type": "SYSTEM",
-                    "domain": "CLOUD"
-                },
-                "impact_description": "Architected multi-region cloud infrastructure on AWS, achieving 99.99% uptime SLA.",
+                "impact_description": "Managed platform engineering team of 6 engineers supporting entire engineering organization.",
                 "year": 2021,
                 "role": "Senior Platform Engineer",
                 "duration": null,
-                "team_size": null,
+                "team_size": 6,
                 "context": "CloudNative Tech"
             }
         ],
         "years_experience": 7,
         "previous_companies": [
+            "CloudNative Tech",
             "ScaleUp Inc",
             "TechCorp"
         ],
         "location": "San Jose, CA"
     },
     {
-        "id": "JSneKsS4",
-        "name": "Jennifer Park",
-        "email": "jennifer.park@email.com",
-        "current_title": "Data Engineering Manager",
+        "id": "eOIAxtcB",
+        "name": "Monica Garcia",
+        "email": "monica.garcia@email.com",
+        "current_title": "Senior Database Administrator",
         "department": "Engineering",
-        "level": "Director",
+        "level": "Senior",
         "hire_date": null,
         "skills": [
             {
                 "skill": {
                     "name": "SQL"
                 },
-                "proficiency": 5,
-                "years_experience": 10,
-                "context": "Used for data engineering, ETL, and analytics across all roles",
+                "proficiency": 4,
+                "years_experience": 9,
+                "context": "Used across all roles for database management and optimization",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Python"
                 },
-                "proficiency": 4,
-                "years_experience": 8,
-                "context": "Used for data pipelines, ETL, and analytics",
-                "is_primary": true
+                "proficiency": 3,
+                "years_experience": 3,
+                "context": "Used for scripting and automation in database administration",
+                "is_primary": false
             },
             {
                 "skill": {
                     "name": "Data Engineering"
                 },
-                "proficiency": 5,
-                "years_experience": 6,
-                "context": "Core responsibility in all roles",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "AWS"
-                },
                 "proficiency": 4,
                 "years_experience": 7,
-                "context": "Led cloud migration and managed AWS infrastructure",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Kubernetes"
-                },
-                "proficiency": 3,
-                "years_experience": 3,
-                "context": "Used for infrastructure and deployment",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Leadership"
-                },
-                "proficiency": 5,
-                "years_experience": 8,
-                "context": "Managed and led data engineering teams",
+                "context": "Specialist in PostgreSQL and distributed database architectures",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Team Management"
                 },
-                "proficiency": 5,
-                "years_experience": 6,
-                "context": "Managed teams up to 12 people",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Data Science"
-                },
                 "proficiency": 3,
                 "years_experience": 2,
-                "context": "Graduate degree and some application in roles",
+                "context": "Managed database team of 4 engineers",
                 "is_primary": false
             }
         ],
         "accomplishments": [
             {
+                "type": "OPTIMIZED",
+                "thing": {
+                    "name": "postgresql_performance_eOIAxtcB",
+                    "type": "SYSTEM",
+                    "domain": "DATABASE"
+                },
+                "impact_description": "Improved query speed by 300% for PostgreSQL database supporting 50M+ daily transactions.",
+                "year": 2020,
+                "role": "Senior Database Administrator",
+                "duration": null,
+                "team_size": null,
+                "context": "Enterprise Data Systems"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "replication_system_eOIAxtcB",
+                    "type": "SYSTEM",
+                    "domain": "DATABASE"
+                },
+                "impact_description": "Ensured 99.99% availability for mission-critical applications.",
+                "year": 2020,
+                "role": "Senior Database Administrator",
+                "duration": null,
+                "team_size": null,
+                "context": "Enterprise Data Systems"
+            },
+            {
                 "type": "MANAGED",
                 "thing": {
-                    "name": "realtime_analytics_platform_JSneKsS4",
-                    "type": "SYSTEM",
-                    "domain": "DATA_ENGINEERING"
+                    "name": "database_team_eOIAxtcB",
+                    "type": "TEAM",
+                    "domain": "DATABASE"
                 },
-                "impact_description": "Managed a 12-person team to build a real-time analytics platform processing over 1TB of data daily.",
-                "year": 2021,
-                "role": "Data Engineering Manager",
-                "duration": "Ongoing since 2020",
-                "team_size": 12,
-                "context": "CloudData Corp"
+                "impact_description": "Managed team of 4 engineers supporting 100+ production databases.",
+                "year": 2020,
+                "role": "Senior Database Administrator",
+                "duration": null,
+                "team_size": 4,
+                "context": "Enterprise Data Systems"
             },
             {
                 "type": "LED",
                 "thing": {
-                    "name": "cloud_migration_aws_JSneKsS4",
+                    "name": "oracle_to_postgresql_migration_eOIAxtcB",
                     "type": "PROJECT",
-                    "domain": "CLOUD"
+                    "domain": "DATABASE"
                 },
-                "impact_description": "Led migration of 200+ data sources to AWS, completed 2 months ahead of schedule.",
-                "year": 2021,
-                "role": "Data Engineering Manager",
-                "duration": "6 months",
-                "team_size": 12,
-                "context": "CloudData Corp"
+                "impact_description": "Migrated legacy Oracle systems to modern PostgreSQL infrastructure.",
+                "year": 2018,
+                "role": "Database Administrator",
+                "duration": null,
+                "team_size": null,
+                "context": "Financial Corp"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "data_warehouse_bi_JSneKsS4",
+                    "name": "backup_disaster_recovery_eOIAxtcB",
                     "type": "SYSTEM",
                     "domain": "DATABASE"
                 },
-                "impact_description": "Architected a data warehouse serving 500+ analysts and executives for business intelligence.",
-                "year": 2021,
-                "role": "Data Engineering Manager",
-                "duration": "1 year",
-                "team_size": 8,
-                "context": "CloudData Corp"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "data_pipeline_infrastructure_JSneKsS4",
-                    "type": "SYSTEM",
-                    "domain": "DATA_ENGINEERING"
-                },
-                "impact_description": "Built data pipeline infrastructure using Apache Kafka and Spark, supporting company-wide analytics.",
+                "impact_description": "Implemented automated backup and disaster recovery system with 15-minute recovery time objective.",
                 "year": 2018,
-                "role": "Senior Data Engineer",
-                "duration": "2 years",
-                "team_size": 4,
-                "context": "Analytics Inc"
+                "role": "Database Administrator",
+                "duration": null,
+                "team_size": null,
+                "context": "Financial Corp"
             },
             {
                 "type": "SHIPPED",
                 "thing": {
-                    "name": "analytics_dashboard_JSneKsS4",
+                    "name": "monitoring_platform_eOIAxtcB",
                     "type": "PRODUCT",
-                    "domain": "ANALYTICS"
+                    "domain": "DATABASE"
                 },
-                "impact_description": "Shipped analytics dashboard enabling real-time business decision making across all departments.",
-                "year": 2019,
-                "role": "Senior Data Engineer",
-                "duration": "1 year",
-                "team_size": 3,
-                "context": "Analytics Inc"
+                "impact_description": "Provided real-time performance insights to development teams.",
+                "year": 2018,
+                "role": "Database Administrator",
+                "duration": null,
+                "team_size": null,
+                "context": "Financial Corp"
             },
             {
-                "type": "PUBLISHED",
+                "type": "OPTIMIZED",
                 "thing": {
-                    "name": "whitepaper_data_engineering_JSneKsS4",
-                    "type": "RESEARCH",
-                    "domain": "DATA_ENGINEERING"
+                    "name": "sqlserver_performance_eOIAxtcB",
+                    "type": "SYSTEM",
+                    "domain": "DATABASE"
                 },
-                "impact_description": "Published whitepaper on data engineering best practices, cited 200+ times in industry publications.",
-                "year": 2019,
-                "role": "Senior Data Engineer",
+                "impact_description": "Maintained and optimized SQL Server databases for patient management systems.",
+                "year": 2015,
+                "role": "Junior Database Administrator",
                 "duration": null,
-                "team_size": 1,
-                "context": "Analytics Inc"
+                "team_size": null,
+                "context": "Healthcare Systems"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "etl_processes_customer_data_JSneKsS4",
-                    "type": "SYSTEM",
-                    "domain": "DATA_ENGINEERING"
+                    "name": "performance_tuning_procedures_eOIAxtcB",
+                    "type": "PROCESS",
+                    "domain": "DATABASE"
                 },
-                "impact_description": "Developed ETL processes for processing large-scale customer data.",
+                "impact_description": "Developed database performance tuning procedures and documentation.",
                 "year": 2015,
-                "role": "Data Engineer",
-                "duration": "2 years",
-                "team_size": 2,
-                "context": "StartupData"
-            },
-            {
-                "type": "WON",
-                "thing": {
-                    "name": "technical_leadership_award_JSneKsS4",
-                    "type": "AWARD",
-                    "domain": "DATA_ENGINEERING"
-                },
-                "impact_description": "Won 'Technical Leadership Award' for exceptional team performance and innovation.",
-                "year": 2016,
-                "role": "Data Engineer",
+                "role": "Junior Database Administrator",
                 "duration": null,
                 "team_size": null,
-                "context": "StartupData"
+                "context": "Healthcare Systems"
             }
         ],
-        "years_experience": 10,
+        "years_experience": 9,
         "previous_companies": [
-            "Analytics Inc",
-            "StartupData"
+            "Enterprise Data Systems",
+            "Financial Corp",
+            "Healthcare Systems"
         ],
-        "location": "Seattle, WA"
+        "location": "Denver, CO"
     },
     {
         "id": "xRPBlhk9",
@@ -1262,16 +995,16 @@
                 },
                 "proficiency": 5,
                 "years_experience": 8,
-                "context": "Used for building production ML systems, fraud detection, recommendation engines.",
+                "context": "Programming for AI/ML systems",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Machine Learning"
                 },
-                "proficiency": 5,
+                "proficiency": 4,
                 "years_experience": 6,
-                "context": "Building production ML systems, fraud detection, recommendation engines.",
+                "context": "Building production ML systems",
                 "is_primary": true
             },
             {
@@ -1280,25 +1013,25 @@
                 },
                 "proficiency": 4,
                 "years_experience": 4,
-                "context": "Developed deep learning models for NLP and computer vision.",
+                "context": "Developing deep learning models for NLP and other applications",
                 "is_primary": true
             },
             {
                 "skill": {
                     "name": "Computer Vision"
                 },
-                "proficiency": 4,
+                "proficiency": 3,
                 "years_experience": 3,
-                "context": "Shipped computer vision model for autonomous vehicles.",
+                "context": "Shipped computer vision model for autonomous vehicles",
                 "is_primary": false
             },
             {
                 "skill": {
                     "name": "Natural Language Processing"
                 },
-                "proficiency": 3,
+                "proficiency": 2,
                 "years_experience": 2,
-                "context": "Developed NLP applications at StartupAI.",
+                "context": "Developed deep learning models for NLP applications",
                 "is_primary": false
             },
             {
@@ -1307,16 +1040,16 @@
                 },
                 "proficiency": 4,
                 "years_experience": 6,
-                "context": "Architected ML infrastructure platform at TechCorp.",
+                "context": "ML infrastructure and deployment",
                 "is_primary": false
             },
             {
                 "skill": {
                     "name": "Docker"
                 },
-                "proficiency": 4,
+                "proficiency": 3,
                 "years_experience": 4,
-                "context": "Used for ML infrastructure and deployment.",
+                "context": "ML infrastructure and deployment",
                 "is_primary": false
             },
             {
@@ -1325,34 +1058,7 @@
                 },
                 "proficiency": 3,
                 "years_experience": 3,
-                "context": "Used for ML infrastructure and deployment.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Leadership"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Led 8-person AI engineering team at TechCorp.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Team Management"
-                },
-                "proficiency": 4,
-                "years_experience": 2,
-                "context": "Led 8-person AI engineering team at TechCorp.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Communication"
-                },
-                "proficiency": 4,
-                "years_experience": 6,
-                "context": "Published papers, led teams, cross-functional collaboration.",
+                "context": "ML infrastructure and deployment",
                 "is_primary": false
             }
         ],
@@ -1364,40 +1070,40 @@
                     "type": "SYSTEM",
                     "domain": "AI"
                 },
-                "impact_description": "Served 50M+ daily transactions, reduced false positives by 40%.",
+                "impact_description": "Served 50M+ daily transactions, reduced false positives by 40%",
                 "year": 2022,
-                "role": "Builder/Lead Engineer",
-                "duration": "Ongoing",
-                "team_size": 4,
-                "context": "TechCorp"
+                "role": "Builder",
+                "duration": null,
+                "team_size": null,
+                "context": "At TechCorp"
             },
             {
                 "type": "LED",
                 "thing": {
-                    "name": "ai_recommendation_team_xRPBlhk9",
+                    "name": "ai_engineering_team_xRPBlhk9",
                     "type": "TEAM",
                     "domain": "AI"
                 },
-                "impact_description": "Developed recommendation engine, increased user engagement by 25%.",
+                "impact_description": "Led 8-person team developing recommendation engine, increased user engagement by 25%",
                 "year": 2022,
                 "role": "Team Lead",
-                "duration": "Ongoing",
+                "duration": null,
                 "team_size": 8,
-                "context": "TechCorp"
+                "context": "At TechCorp"
             },
             {
                 "type": "BUILT",
                 "thing": {
                     "name": "ml_infrastructure_platform_xRPBlhk9",
                     "type": "SYSTEM",
-                    "domain": "PLATFORM"
+                    "domain": "AI"
                 },
-                "impact_description": "Supported 20+ data science teams across the organization.",
+                "impact_description": "Supported 20+ data science teams across organization",
                 "year": 2022,
                 "role": "Architect",
-                "duration": "Ongoing",
+                "duration": null,
                 "team_size": null,
-                "context": "TechCorp"
+                "context": "At TechCorp"
             },
             {
                 "type": "SHIPPED",
@@ -1406,12 +1112,12 @@
                     "type": "PRODUCT",
                     "domain": "AI"
                 },
-                "impact_description": "Achieved 99.2% accuracy on test datasets.",
+                "impact_description": "Achieved 99.2% accuracy on test datasets",
                 "year": 2021,
-                "role": "AI Engineer",
-                "duration": "1 year",
+                "role": "Engineer",
+                "duration": null,
                 "team_size": null,
-                "context": "DataFlow"
+                "context": "At DataFlow"
             },
             {
                 "type": "PUBLISHED",
@@ -1420,26 +1126,26 @@
                     "type": "RESEARCH",
                     "domain": "AI"
                 },
-                "impact_description": "Published 3 papers at NeurIPS and ICML.",
+                "impact_description": "Published 3 papers at NeurIPS and ICML",
                 "year": 2021,
                 "role": "Author",
-                "duration": "2 years",
+                "duration": null,
                 "team_size": null,
-                "context": "DataFlow"
+                "context": "At DataFlow"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "deep_learning_nlp_models_xRPBlhk9",
+                    "name": "dl_models_nlp_xRPBlhk9",
                     "type": "CODE",
                     "domain": "AI"
                 },
-                "impact_description": "Developed deep learning models for NLP applications.",
+                "impact_description": "Developed deep learning models for NLP applications",
                 "year": 2019,
-                "role": "Junior AI Engineer",
-                "duration": "2 years",
+                "role": "Engineer",
+                "duration": null,
                 "team_size": null,
-                "context": "StartupAI"
+                "context": "At StartupAI"
             },
             {
                 "type": "WON",
@@ -1448,12 +1154,12 @@
                     "type": "AWARD",
                     "domain": "AI"
                 },
-                "impact_description": "Received for breakthrough work in deep learning applications.",
-                "year": 2020,
+                "impact_description": "Won for breakthrough work in deep learning applications",
+                "year": 2019,
                 "role": "Awardee",
                 "duration": null,
                 "team_size": null,
-                "context": "StartupAI"
+                "context": "At StartupAI"
             }
         ],
         "years_experience": 6,
@@ -1462,6 +1168,200 @@
             "StartupAI"
         ],
         "location": "San Francisco, CA"
+    },
+    {
+        "id": "JSneKsS4",
+        "name": "Jennifer Park",
+        "email": "jennifer.park@email.com",
+        "current_title": "Data Engineering Manager",
+        "department": "Engineering",
+        "level": "Senior",
+        "hire_date": null,
+        "skills": [
+            {
+                "skill": {
+                    "name": "SQL"
+                },
+                "proficiency": 5,
+                "years_experience": 10,
+                "context": "Programming: 10+ years SQL",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Python"
+                },
+                "proficiency": 4,
+                "years_experience": 8,
+                "context": "Programming: 8 years Python",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Data Engineering"
+                },
+                "proficiency": 4,
+                "years_experience": 6,
+                "context": "Data Engineering: 6 years",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "AWS"
+                },
+                "proficiency": 4,
+                "years_experience": 7,
+                "context": "Infrastructure: 7 years AWS",
+                "is_primary": false
+            },
+            {
+                "skill": {
+                    "name": "Kubernetes"
+                },
+                "proficiency": 3,
+                "years_experience": 3,
+                "context": "Infrastructure: 3 years Kubernetes",
+                "is_primary": false
+            },
+            {
+                "skill": {
+                    "name": "Leadership"
+                },
+                "proficiency": 4,
+                "years_experience": 8,
+                "context": "Leadership: 8 years",
+                "is_primary": true
+            },
+            {
+                "skill": {
+                    "name": "Team Management"
+                },
+                "proficiency": 4,
+                "years_experience": 6,
+                "context": "Team Management: 6 years",
+                "is_primary": true
+            }
+        ],
+        "accomplishments": [
+            {
+                "type": "MANAGED",
+                "thing": {
+                    "name": "data_eng_team_JSneKsS4",
+                    "type": "TEAM",
+                    "domain": "DATA_ENGINEERING"
+                },
+                "impact_description": "Managed 12-person data engineering team building real-time analytics platform processing 1TB+ daily.",
+                "year": 2020,
+                "role": "Data Engineering Manager",
+                "duration": "2020-Present",
+                "team_size": 12,
+                "context": "CloudData Corp"
+            },
+            {
+                "type": "LED",
+                "thing": {
+                    "name": "cloud_migration_project_JSneKsS4",
+                    "type": "PROJECT",
+                    "domain": "CLOUD"
+                },
+                "impact_description": "Led cloud migration project moving 200+ data sources to AWS, completed 2 months ahead of schedule.",
+                "year": 2020,
+                "role": "Data Engineering Manager",
+                "duration": null,
+                "team_size": null,
+                "context": "CloudData Corp"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "data_warehouse_JSneKsS4",
+                    "type": "SYSTEM",
+                    "domain": "DATABASE"
+                },
+                "impact_description": "Architected data warehouse serving business intelligence needs for 500+ analysts and executives.",
+                "year": 2020,
+                "role": "Data Engineering Manager",
+                "duration": null,
+                "team_size": null,
+                "context": "CloudData Corp"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "data_pipeline_infra_JSneKsS4",
+                    "type": "SYSTEM",
+                    "domain": "DATA_ENGINEERING"
+                },
+                "impact_description": "Built data pipeline infrastructure using Apache Kafka and Spark, supporting company-wide analytics.",
+                "year": 2017,
+                "role": "Senior Data Engineer",
+                "duration": "2017-2020",
+                "team_size": null,
+                "context": "Analytics Inc"
+            },
+            {
+                "type": "SHIPPED",
+                "thing": {
+                    "name": "analytics_dashboard_JSneKsS4",
+                    "type": "PRODUCT",
+                    "domain": "ANALYTICS"
+                },
+                "impact_description": "Shipped analytics dashboard enabling real-time business decision making across all departments.",
+                "year": 2017,
+                "role": "Senior Data Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "Analytics Inc"
+            },
+            {
+                "type": "PUBLISHED",
+                "thing": {
+                    "name": "whitepaper_data_eng_best_practices_JSneKsS4",
+                    "type": "RESEARCH",
+                    "domain": "DATA_ENGINEERING"
+                },
+                "impact_description": "Published whitepaper on data engineering best practices, cited 200+ times in industry publications.",
+                "year": 2017,
+                "role": "Senior Data Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "Analytics Inc"
+            },
+            {
+                "type": "BUILT",
+                "thing": {
+                    "name": "etl_processes_JSneKsS4",
+                    "type": "SYSTEM",
+                    "domain": "DATA_ENGINEERING"
+                },
+                "impact_description": "Developed ETL processes for processing large-scale customer data.",
+                "year": 2014,
+                "role": "Data Engineer",
+                "duration": "2014-2017",
+                "team_size": null,
+                "context": "StartupData"
+            },
+            {
+                "type": "WON",
+                "thing": {
+                    "name": "technical_leadership_award_JSneKsS4",
+                    "type": "AWARD",
+                    "domain": "DATA_ENGINEERING"
+                },
+                "impact_description": "Won 'Technical Leadership Award' for exceptional team performance and innovation.",
+                "year": 2017,
+                "role": "Data Engineer",
+                "duration": null,
+                "team_size": null,
+                "context": "StartupData"
+            }
+        ],
+        "years_experience": 10,
+        "previous_companies": [
+            "Analytics Inc",
+            "StartupData"
+        ],
+        "location": "Seattle, WA"
     },
     {
         "id": "7tX3HyCE",
@@ -1478,7 +1378,7 @@
                 },
                 "proficiency": 5,
                 "years_experience": 12,
-                "context": "Led engineering organizations and teams across multiple companies.",
+                "context": "Engineering leadership executive roles",
                 "is_primary": true
             },
             {
@@ -1487,7 +1387,7 @@
                 },
                 "proficiency": 5,
                 "years_experience": 8,
-                "context": "Managed teams from 20 to 80+ engineers.",
+                "context": "Managed engineering teams",
                 "is_primary": true
             },
             {
@@ -1496,16 +1396,7 @@
                 },
                 "proficiency": 4,
                 "years_experience": 8,
-                "context": "Oversaw large-scale engineering projects and digital transformation initiatives.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Product Strategy"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Involved in technical due diligence and strategic acquisitions.",
+                "context": "Led engineering projects and initiatives",
                 "is_primary": false
             },
             {
@@ -1514,7 +1405,7 @@
                 },
                 "proficiency": 4,
                 "years_experience": 6,
-                "context": "Developed enterprise software solutions.",
+                "context": "Developed enterprise software solutions",
                 "is_primary": false
             },
             {
@@ -1523,52 +1414,25 @@
                 },
                 "proficiency": 3,
                 "years_experience": 4,
-                "context": "Built scalable web applications.",
+                "context": "Web application development",
                 "is_primary": false
             },
             {
                 "skill": {
                     "name": "AWS"
                 },
-                "proficiency": 4,
+                "proficiency": 3,
                 "years_experience": 5,
-                "context": "Shipped next-generation platform architecture.",
+                "context": "Platform and infrastructure projects",
                 "is_primary": false
             },
             {
                 "skill": {
-                    "name": "Data Engineering"
+                    "name": "Product Strategy"
                 },
                 "proficiency": 3,
                 "years_experience": 3,
-                "context": "Managed data and infrastructure teams.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Cloud Architecture"
-                },
-                "proficiency": 4,
-                "years_experience": 5,
-                "context": "Led migration to microservices and cloud platforms.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Communication"
-                },
-                "proficiency": 5,
-                "years_experience": 12,
-                "context": "Published articles, spoke at conferences, mentored leaders.",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Project Management"
-                },
-                "proficiency": 4,
-                "years_experience": 8,
-                "context": "Implemented agile and CI practices.",
+                "context": "Engineering leadership and digital transformation",
                 "is_primary": false
             }
         ],
@@ -1576,21 +1440,21 @@
             {
                 "type": "MANAGED",
                 "thing": {
-                    "name": "eng_org_unicorn_7tX3HyCE",
+                    "name": "managed_engineering_org_7tX3HyCE",
                     "type": "TEAM",
                     "domain": "PLATFORM"
                 },
                 "impact_description": "Managed engineering organization of 80+ engineers across web, mobile, data, and infrastructure teams.",
                 "year": 2020,
                 "role": "Director of Engineering",
-                "duration": "3+ years",
+                "duration": "2020-Present",
                 "team_size": 80,
                 "context": "Unicorn Startup"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "hiring_onboarding_process_7tX3HyCE",
+                    "name": "built_hiring_onboarding_process_7tX3HyCE",
                     "type": "PROCESS",
                     "domain": "PLATFORM"
                 },
@@ -1604,119 +1468,105 @@
             {
                 "type": "SHIPPED",
                 "thing": {
-                    "name": "next_gen_platform_arch_7tX3HyCE",
+                    "name": "shipped_nextgen_platform_7tX3HyCE",
                     "type": "SYSTEM",
                     "domain": "PLATFORM"
                 },
                 "impact_description": "Shipped next-generation platform architecture supporting 10x user growth and international expansion.",
                 "year": 2021,
                 "role": "Director of Engineering",
-                "duration": "1 year",
-                "team_size": 20,
+                "duration": null,
+                "team_size": null,
                 "context": "Unicorn Startup"
             },
             {
                 "type": "LED",
                 "thing": {
-                    "name": "digital_transformation_microservices_7tX3HyCE",
+                    "name": "led_digital_transformation_7tX3HyCE",
                     "type": "PROJECT",
                     "domain": "MICROSERVICES"
                 },
                 "impact_description": "Led digital transformation initiative migrating monolithic system to microservices architecture.",
-                "year": 2018,
+                "year": 2017,
                 "role": "VP of Engineering",
-                "duration": "2 years",
-                "team_size": 30,
+                "duration": "2017-2020",
+                "team_size": null,
                 "context": "Growth-Stage Company"
             },
             {
                 "type": "LED",
                 "thing": {
-                    "name": "eng_culture_innovation_7tX3HyCE",
+                    "name": "led_technical_due_diligence_7tX3HyCE",
                     "type": "PROCESS",
                     "domain": "PLATFORM"
                 },
-                "impact_description": "Established engineering culture focused on innovation, quality, and continuous improvement.",
-                "year": 2019,
-                "role": "VP of Engineering",
-                "duration": "1 year",
-                "team_size": 30,
-                "context": "Growth-Stage Company"
-            },
-            {
-                "type": "LED",
-                "thing": {
-                    "name": "tech_due_diligence_acquisitions_7tX3HyCE",
-                    "type": "PROJECT",
-                    "domain": "PLATFORM"
-                },
                 "impact_description": "Led technical due diligence for 3 strategic acquisitions, successfully integrating acquired engineering teams.",
-                "year": 2020,
+                "year": 2017,
                 "role": "VP of Engineering",
-                "duration": "1 year",
-                "team_size": 10,
+                "duration": "2017-2020",
+                "team_size": null,
                 "context": "Growth-Stage Company"
             },
             {
                 "type": "MANAGED",
                 "thing": {
-                    "name": "cross_func_eng_teams_7tX3HyCE",
+                    "name": "managed_crossfunctional_teams_7tX3HyCE",
                     "type": "TEAM",
                     "domain": "WEB"
                 },
                 "impact_description": "Managed cross-functional engineering teams building scalable web applications.",
-                "year": 2015,
+                "year": 2014,
                 "role": "Engineering Manager",
-                "duration": "3 years",
-                "team_size": 10,
+                "duration": "2014-2017",
+                "team_size": null,
                 "context": "Tech Startup"
             },
             {
                 "type": "OPTIMIZED",
                 "thing": {
-                    "name": "agile_ci_processes_7tX3HyCE",
+                    "name": "implemented_agile_ci_7tX3HyCE",
                     "type": "PROCESS",
-                    "domain": "DEVOPS"
+                    "domain": "PLATFORM"
                 },
                 "impact_description": "Implemented agile development processes and continuous integration practices.",
-                "year": 2016,
+                "year": 2014,
                 "role": "Engineering Manager",
-                "duration": "2 years",
-                "team_size": 10,
+                "duration": "2014-2017",
+                "team_size": null,
                 "context": "Tech Startup"
             },
             {
                 "type": "BUILT",
                 "thing": {
-                    "name": "enterprise_software_solutions_7tX3HyCE",
-                    "type": "PRODUCT",
-                    "domain": "WEB"
+                    "name": "developed_enterprise_software_7tX3HyCE",
+                    "type": "CODE",
+                    "domain": "PLATFORM"
                 },
                 "impact_description": "Developed enterprise software solutions using Java and Python.",
-                "year": 2013,
+                "year": 2012,
                 "role": "Senior Software Engineer",
-                "duration": "2 years",
-                "team_size": 5,
+                "duration": "2012-2014",
+                "team_size": null,
                 "context": "Enterprise Software"
             },
             {
                 "type": "PUBLISHED",
                 "thing": {
-                    "name": "eng_mgmt_articles_7tX3HyCE",
+                    "name": "published_thought_leadership_7tX3HyCE",
                     "type": "RESEARCH",
                     "domain": "PLATFORM"
                 },
                 "impact_description": "Published thought leadership articles on engineering management, speaking at major technology conferences.",
-                "year": 2014,
+                "year": 2012,
                 "role": "Senior Software Engineer",
-                "duration": "1 year",
-                "team_size": 1,
+                "duration": "2012-2014",
+                "team_size": null,
                 "context": "Enterprise Software"
             },
             {
                 "type": "WON",
                 "thing": {
-                    "name": "tech_leadership_award_7tX3HyCE",
+                    "name": "technical_leadership_award_7tX3HyCE",
                     "type": "AWARD",
                     "domain": "PLATFORM"
                 },
@@ -1736,198 +1586,5 @@
             "Enterprise Software"
         ],
         "location": "San Francisco, CA"
-    },
-    {
-        "id": "UhZn6uYW",
-        "name": "Dr. Amanda Foster",
-        "email": "amanda.foster@email.com",
-        "current_title": "Principal Research Scientist",
-        "department": "Data Science",
-        "level": "Principal",
-        "hire_date": null,
-        "skills": [
-            {
-                "skill": {
-                    "name": "Python"
-                },
-                "proficiency": 5,
-                "years_experience": 10,
-                "context": "Used for AI/ML research, model development, and publication.",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Machine Learning"
-                },
-                "proficiency": 5,
-                "years_experience": 8,
-                "context": "Core research area, applied in computer vision and NLP.",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Deep Learning"
-                },
-                "proficiency": 5,
-                "years_experience": 6,
-                "context": "PhD focus and professional research in AI.",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Computer Vision"
-                },
-                "proficiency": 5,
-                "years_experience": 5,
-                "context": "Published papers and built state-of-the-art models.",
-                "is_primary": true
-            },
-            {
-                "skill": {
-                    "name": "Natural Language Processing"
-                },
-                "proficiency": 4,
-                "years_experience": 4,
-                "context": "Research and publication in NLP.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Data Science"
-                },
-                "proficiency": 4,
-                "years_experience": 8,
-                "context": "Research methodology and publication.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Statistics"
-                },
-                "proficiency": 4,
-                "years_experience": 8,
-                "context": "Research and analysis for AI/ML experiments.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Leadership"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Led research team of 6 PhD students and postdocs.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Team Management"
-                },
-                "proficiency": 4,
-                "years_experience": 3,
-                "context": "Managed research team at AI Research Institute.",
-                "is_primary": false
-            },
-            {
-                "skill": {
-                    "name": "Communication"
-                },
-                "proficiency": 5,
-                "years_experience": 8,
-                "context": "Published 15 peer-reviewed papers, conference presentations.",
-                "is_primary": false
-            }
-        ],
-        "accomplishments": [
-            {
-                "type": "PUBLISHED",
-                "thing": {
-                    "name": "published_15_papers_UhZn6uYW",
-                    "type": "RESEARCH",
-                    "domain": "AI"
-                },
-                "impact_description": "Published 15 peer-reviewed papers on computer vision and NLP, cited over 500 times.",
-                "year": 2023,
-                "role": "Principal Research Scientist",
-                "duration": "2 years",
-                "team_size": 6,
-                "context": "AI Research Institute"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "imagenet_model_UhZn6uYW",
-                    "type": "SYSTEM",
-                    "domain": "AI"
-                },
-                "impact_description": "Built state-of-the-art image recognition model achieving top-3 accuracy on ImageNet benchmark.",
-                "year": 2022,
-                "role": "Principal Research Scientist",
-                "duration": "1 year",
-                "team_size": 6,
-                "context": "AI Research Institute"
-            },
-            {
-                "type": "LED",
-                "thing": {
-                    "name": "multimodal_ai_team_UhZn6uYW",
-                    "type": "TEAM",
-                    "domain": "AI"
-                },
-                "impact_description": "Led research team of 6 PhD students and postdocs investigating multimodal AI systems.",
-                "year": 2022,
-                "role": "Principal Research Scientist",
-                "duration": "2 years",
-                "team_size": 6,
-                "context": "AI Research Institute"
-            },
-            {
-                "type": "BUILT",
-                "thing": {
-                    "name": "novel_nlp_architecture_UhZn6uYW",
-                    "type": "CODE",
-                    "domain": "AI"
-                },
-                "impact_description": "Developed novel neural network architecture for language understanding, open-sourced for research community.",
-                "year": 2020,
-                "role": "Research Scientist",
-                "duration": "1 year",
-                "team_size": null,
-                "context": "Tech Giant Research Lab"
-            },
-            {
-                "type": "SHIPPED",
-                "thing": {
-                    "name": "image_analysis_prototype_UhZn6uYW",
-                    "type": "PRODUCT",
-                    "domain": "AI"
-                },
-                "impact_description": "Shipped research prototype to production, serving millions of users with real-time image analysis.",
-                "year": 2020,
-                "role": "Research Scientist",
-                "duration": "1 year",
-                "team_size": null,
-                "context": "Tech Giant Research Lab"
-            },
-            {
-                "type": "WON",
-                "thing": {
-                    "name": "cvpr_best_paper_UhZn6uYW",
-                    "type": "AWARD",
-                    "domain": "AI"
-                },
-                "impact_description": "Won Best Paper Award at Computer Vision and Pattern Recognition (CVPR) conference.",
-                "year": 2017,
-                "role": "Postdoctoral Researcher",
-                "duration": null,
-                "team_size": null,
-                "context": "MIT CSAIL"
-            }
-        ],
-        "years_experience": 8,
-        "previous_companies": [
-            "Tech Giant Research Lab",
-            "MIT CSAIL"
-        ],
-        "location": "Cambridge, MA"
     }
 ]

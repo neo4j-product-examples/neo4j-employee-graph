@@ -10,3 +10,6 @@ tqdm
 pypdf
 pandas
 neo4j
+google-adk>=1.0.0
+litellm
+uv

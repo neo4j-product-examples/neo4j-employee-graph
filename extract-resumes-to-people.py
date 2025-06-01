@@ -2,7 +2,7 @@ import os
 import json
 import asyncio
 
-from getpass import getpass
+import getpass
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from pypdf import PdfReader
@@ -110,8 +110,9 @@ def main():
 
     # Define Prompt and LLM with structured output
     people_prompt_template = PromptTemplate.from_template("""
-    You are extracting information from resumes according to the people schema. Below is the resume
-    # Resumes
+    You are extracting information from resumes according to the people schema. Below is the resume.
+    Only include information explicitly listed in the resume.
+    # Resume
     {texts}
     """)
     llm = ChatOpenAI(model="gpt-4.1", temperature=0).with_structured_output(Person)
