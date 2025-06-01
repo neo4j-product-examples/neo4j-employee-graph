@@ -1,3 +1,6 @@
+import base64
+import hashlib
+
 from pydantic import BaseModel, Field, validator
 from enum import Enum
 from typing import Optional, List, Dict, Any, TYPE_CHECKING
@@ -168,3 +171,16 @@ class Person(BaseModel):
     
     # Additional metadata
     location: Optional[str] = Field(None, description="Work location")
+
+def get_short_id(input_string, length=8):
+    """Generate a short, deterministic ID from a string using base64 encoding"""
+    # Create a deterministic hash from the input string
+    hash_object = hashlib.md5(input_string.encode())
+    digest = hash_object.digest()
+
+    # Encode in base64, remove padding and non-alphanumeric chars
+    b64_encoded = base64.b64encode(digest).decode('ascii')
+    clean_id = ''.join(c for c in b64_encoded if c.isalnum())
+
+    # Return the first 'length' characters
+    return clean_id[:length]

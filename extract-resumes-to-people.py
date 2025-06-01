@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from typing import List
 from tqdm.asyncio import tqdm as tqdm_async
 
-from person import Person
+from person import Person, get_short_id
 
 
 def read_resumes_from_directory(directory="resume-pdfs"):
@@ -41,6 +41,13 @@ def read_resumes_from_directory(directory="resume-pdfs"):
             text = ""
             with open(pdf_path, 'rb') as file:
                 pdf_reader = PdfReader(file)
+                # IMPORTANT Create a unique id for each person.
+                # In this case we can do it by file name but may vary by use case
+                # It is important to think about how things are identified in entity extraction
+                # so that they get properly resolved in the graph
+                # Usually you do not want to use names.
+                person_id = get_short_id(pdf_file)
+                text += f"PersonID: {person_id}\n"
                 for page in pdf_reader.pages:
                     text += page.extract_text()
 
