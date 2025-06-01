@@ -1,3 +1,8 @@
 pydantic
 markdown
 reportlab
+langchain
+langchain-openai
+python-dotenv
+tqdm
+pypdf

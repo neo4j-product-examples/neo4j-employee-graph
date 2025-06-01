@@ -95,7 +95,7 @@ def main():
     Main function to process all markdown files in input_resumes directory
     """
     input_dir = "input-resumes"
-    output_dir = "output-resumes"
+    output_dir = "resume-pdfs"
 
     # Check if directories exist
     if not os.path.exists(input_dir):
