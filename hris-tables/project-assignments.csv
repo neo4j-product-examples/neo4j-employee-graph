@@ -1,0 +1,51 @@
+project_name,role_title,allocation_percentage,start_date,end_date,project_domain,project_type,accomplishment_type,person_id
+Supply Chain Optimization Engine,AI Consultant,30.0,2018-03-01,2018-11-30,AI,PRODUCT,BUILT,xRPBlhk9
+Automated Content Moderation,Senior ML Engineer,60.0,2020-02-01,2021-08-31,AI,PRODUCT,BUILT,xRPBlhk9
+Edge Computing AI Platform,Principal Architect,80.0,2022-01-01,2023-12-31,AI,INFRASTRUCTURE,BUILT,xRPBlhk9
+Quantum-Classical Hybrid Research,Research Lead,40.0,2024-01-01,,AI,RESEARCH,LED,xRPBlhk9
+Employee Self-Service Portal,Full-Stack Developer,90.0,2020-06-01,2021-12-31,WEB,PRODUCT,BUILT,kkkMTAId
+Internal Documentation Platform,Tech Lead,100.0,2022-03-01,2023-09-30,WEB,PRODUCT,LED,kkkMTAId
+API Gateway Modernization,Senior Developer,70.0,2023-10-01,,MICROSERVICES,INFRASTRUCTURE,BUILT,kkkMTAId
+Data Warehouse Migration,Lead Engineer,85.0,2014-08-01,2016-12-31,DATA_ENGINEERING,INFRASTRUCTURE,LED,JSneKsS4
+Customer 360 Platform,Tech Lead,100.0,2017-06-01,2019-11-30,DATA_ENGINEERING,PRODUCT,LED,JSneKsS4
+Business Intelligence Dashboard,Engineering Manager,60.0,2020-01-01,2022-06-30,ANALYTICS,PRODUCT,MANAGED,JSneKsS4
+Multi-Cloud Data Strategy,Manager,80.0,2022-07-01,,CLOUD,INFRASTRUCTURE,MANAGED,JSneKsS4
+Mobile Expense Tracker,Intern,100.0,2023-06-15,2023-12-31,MOBILE,PRODUCT,BUILT,5BiANRmk
+Cross-Platform Health App,Junior Developer,90.0,2024-01-15,,MOBILE,PRODUCT,BUILT,5BiANRmk
+Container Orchestration Setup,DevOps Engineer,80.0,2017-05-01,2019-02-28,DEVOPS,INFRASTRUCTURE,BUILT,WWdJ3ABQ
+Multi-Region Deployment Platform,Tech Lead,100.0,2019-03-01,2021-09-30,CLOUD,INFRASTRUCTURE,LED,WWdJ3ABQ
+Internal Developer Tooling,Platform Architect,70.0,2021-10-01,,PLATFORM,PRODUCT,BUILT,WWdJ3ABQ
+Marketing Campaign Analytics,Data Analyst,100.0,2021-02-01,2022-04-30,ANALYTICS,PRODUCT,BUILT,ZIMWCRHs
+Experimentation Framework,Senior Analyst,90.0,2022-05-01,2023-12-31,ANALYTICS,INFRASTRUCTURE,BUILT,ZIMWCRHs
+Revenue Attribution Model,Product Analyst,85.0,2024-01-01,,ANALYTICS,PRODUCT,BUILT,ZIMWCRHs
+Reinforcement Learning Simulator,Researcher,80.0,2016-09-01,2018-06-30,AI,RESEARCH,BUILT,UhZn6uYW
+Multimodal Search Engine,Principal Researcher,90.0,2018-07-01,2020-12-31,AI,RESEARCH,BUILT,UhZn6uYW
+AI Ethics Governance Framework,Research Director,60.0,2021-01-01,,AI,RESEARCH,LED,UhZn6uYW
+Legacy System Modernization,Senior Engineer,85.0,2012-03-01,2014-06-30,MICROSERVICES,PRODUCT,BUILT,7tX3HyCE
+Service Mesh Implementation,Tech Lead,90.0,2014-09-01,2017-03-31,PLATFORM,INFRASTRUCTURE,LED,7tX3HyCE
+Engineering Culture Initiative,Manager,70.0,2017-06-01,2020-09-30,PLATFORM,PROCESS,MANAGED,7tX3HyCE
+Enterprise Architecture Modernization,Director,80.0,2020-12-01,,PLATFORM,INFRASTRUCTURE,MANAGED,7tX3HyCE
+Supply Chain Optimization Engine,Data Engineering Lead,40.0,2018-03-01,2018-11-30,AI,PRODUCT,LED,JSneKsS4
+Edge Computing AI Platform,Infrastructure Lead,35.0,2022-01-01,2023-12-31,AI,INFRASTRUCTURE,LED,WWdJ3ABQ
+Quantum-Classical Hybrid Research,Research Collaborator,25.0,2024-01-01,,AI,RESEARCH,BUILT,UhZn6uYW
+Business Intelligence Dashboard,Analytics Lead,40.0,2020-01-01,2022-06-30,ANALYTICS,PRODUCT,LED,ZIMWCRHs
+Multi-Cloud Data Strategy,Infrastructure Architect,50.0,2022-07-01,,CLOUD,INFRASTRUCTURE,BUILT,WWdJ3ABQ
+Internal Developer Tooling,Frontend Integration Lead,30.0,2021-10-01,,PLATFORM,PRODUCT,LED,kkkMTAId
+Employee Self-Service Portal,UX Analytics,25.0,2020-06-01,2021-12-31,WEB,PRODUCT,BUILT,ZIMWCRHs
+Automated Content Moderation,ML Architecture Advisor,15.0,2020-02-01,2021-08-31,AI,PRODUCT,BUILT,xRPBlhk9
+Edge Computing AI Platform,Research Advisor,20.0,2022-01-01,2023-12-31,AI,INFRASTRUCTURE,BUILT,UhZn6uYW
+Multi-Cloud Data Strategy,Executive Sponsor,15.0,2022-07-01,,CLOUD,INFRASTRUCTURE,MANAGED,7tX3HyCE
+Identity Access Management,Lead Security Engineer,100.0,2019-05-01,2021-08-31,SECURITY,PRODUCT,LED,MhzMrjwz
+Compliance Automation Platform,Principal Security Architect,90.0,2021-09-01,2023-12-31,SECURITY,INFRASTRUCTURE,BUILT,MhzMrjwz
+Multi-Cloud Data Strategy,Security Lead,45.0,2022-07-01,,CLOUD,INFRASTRUCTURE,LED,MhzMrjwz
+Performance Optimization Initiative,Senior DBA,100.0,2015-10-01,2018-03-31,DATABASE,INFRASTRUCTURE,OPTIMIZED,eOIAxtcB
+Customer 360 Platform,Database Architect,50.0,2017-06-01,2019-11-30,DATA_ENGINEERING,PRODUCT,BUILT,eOIAxtcB
+Business Intelligence Dashboard,Database Performance Lead,35.0,2020-01-01,2022-06-30,ANALYTICS,PRODUCT,LED,eOIAxtcB
+Data Warehouse Migration,Database Migration Lead,60.0,2014-08-01,2016-12-31,DATA_ENGINEERING,INFRASTRUCTURE,LED,eOIAxtcB
+Internal Documentation Platform,Mobile Integration Developer,20.0,2022-03-01,2023-09-30,WEB,PRODUCT,BUILT,5BiANRmk
+Supply Chain Optimization Engine,Security Consultant,25.0,2018-03-01,2018-11-30,AI,PRODUCT,BUILT,MhzMrjwz
+Compliance Automation Platform,AI Security Advisor,15.0,2021-09-01,2023-12-31,SECURITY,INFRASTRUCTURE,BUILT,xRPBlhk9
+Service Mesh Implementation,Data Architecture Lead,30.0,2014-09-01,2017-03-31,PLATFORM,INFRASTRUCTURE,LED,JSneKsS4
+Multi-Cloud Data Strategy,Database Migration Lead,65.0,2022-07-01,,CLOUD,INFRASTRUCTURE,LED,eOIAxtcB
+Legacy System Modernization,Frontend Developer,40.0,2012-03-01,2014-06-30,MICROSERVICES,PRODUCT,BUILT,kkkMTAId
+AI Ethics Governance Framework,Data Ethics Collaborator,20.0,2021-01-01,,AI,RESEARCH,BUILT,ZIMWCRHs
