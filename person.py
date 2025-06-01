@@ -51,12 +51,16 @@ class WorkType(str, Enum):
 
 class Thing(BaseModel):
     """Node representing what was accomplished"""
+    name: str = Field(..., description="Unique identifier name for the the thing. "
+                                       "This should be unique across all accomplished things and somewhat descriptive."
+                                       "Concat the person id to this name to ensure uniqueness across multiple people.")
     type: WorkType = Field(..., description="Type of thing")
-    domain: Optional[Domain] = Field(None, description="Domain/category of thing")
+    domain: Domain = Field(..., description="Domain/category of thing")
 
 
 class Accomplishment(BaseModel):
     """Relationship representing an accomplishment"""
+
     type: AccomplishmentType = Field(..., description="Type of accomplishment (verb)")
     thing: Thing = Field(..., description="What was accomplished")
 
