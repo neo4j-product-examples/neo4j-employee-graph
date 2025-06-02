@@ -111,7 +111,9 @@ def main():
     # Define Prompt and LLM with structured output
     people_prompt_template = PromptTemplate.from_template("""
     You are extracting information from resumes according to the people schema. Below is the resume.
-    Only include information explicitly listed in the resume.
+    Only include information explicitly listed in the resume. 
+    For example, do not add skills if they aren't explicitly mentioned in the resume. 
+    
     # Resume
     {texts}
     """)

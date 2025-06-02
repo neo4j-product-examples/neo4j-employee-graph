@@ -80,39 +80,80 @@ class SkillName(str, Enum):
     COMPUTER_VISION = "Computer Vision"
     DATA_SCIENCE = "Data Science"
     STATISTICS = "Statistics"
-    
-    # Programming Skills  
+
+    # AI/ML & Analytics Frameworks & Libraries
+    TENSORFLOW = "TensorFlow"
+    PYTORCH = "PyTorch"
+    KERAS = "Keras"
+    SCIKIT_LEARN = "Scikit-learn"
+    PANDAS = "Pandas"
+    NUMPY = "NumPy"
+    MATPLOTLIB = "Matplotlib"
+
+    # Programming Languages
     PYTHON = "Python"
     JAVASCRIPT = "JavaScript"
+    TYPESCRIPT = "TypeScript"
     JAVA = "Java"
     CPP = "C++"
-    R = "R"
+    C = "C"
+    CSHARP = "C#"
+    GO = "Go"
+    RUST = "Rust"
+    RUBY = "Ruby"
+    SWIFT = "Swift"
+    KOTLIN = "Kotlin"
+    R = "R Programming Language"
     SQL = "SQL"
-    
+    SCALA = "Scala"
+
+    # Frontend Frameworks & Libraries
+    REACT = "React"
+    ANGULAR = "Angular"
+    VUE = "Vue.js"
+    SVELTE = "Svelte"
+    NEXT_JS = "Next.js"
+    NUXT = "Nuxt.js"
+
+    # Backend Frameworks
+    NODE_JS = "Node.js"
+    EXPRESS = "Express.js"
+    DJANGO = "Django"
+    FLASK = "Flask"
+    SPRING = "Spring"
+    RUBY_ON_RAILS = "Ruby on Rails"
+    LARAVEL = "Laravel"
+    ASP_NET = "ASP.NET"
+    NEST_JS = "Nest.js"
+
     # Data/Infrastructure Skills
     DATA_ENGINEERING = "Data Engineering"
     CLOUD_ARCHITECTURE = "Cloud Architecture"
     AWS = "AWS"
+    AZURE = "Azure"
+    GCP = "Google Cloud Platform"
     DOCKER = "Docker"
     KUBERNETES = "Kubernetes"
-    
+
     # Product/Business Skills
     PRODUCT_STRATEGY = "Product Strategy"
     PRODUCT_MANAGEMENT = "Product Management"
     DATA_ANALYSIS = "Data Analysis"
     BUSINESS_INTELLIGENCE = "Business Intelligence"
-    
+
     # Soft Skills
     LEADERSHIP = "Leadership"
     TEAM_MANAGEMENT = "Team Management"
     COMMUNICATION = "Communication"
     PROJECT_MANAGEMENT = "Project Management"
-    
+
     # Other Skills
     ADOBE_PHOTOSHOP = "Adobe Photoshop"
     SOCIAL_MEDIA_MARKETING = "Social Media Marketing"
     ACCOUNTING = "Accounting"
     LEGAL_RESEARCH = "Legal Research"
+
+
 
 class Department(str, Enum):
     """Standardized department/division for organizational filtering"""
