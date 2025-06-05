@@ -2,19 +2,31 @@
 
 __Link to this repo__
 [github.com/neo4j-product-examples/neo4j-employee-graph](https://github.com/neo4j-product-examples/neo4j-employee-graph)
+
 <img src="img/qr-code-to-repo.png" width="150" alt="QR code to repository">
 
 This hands-on workshop guides you through building an agentic GraphRAG application and demonstrates the importance of knowledge graphs and graph DBs for grounding AI, particularly in today's new Agentic world with advanced reasoning and diverse tool utilization.
+
+You'll learn how to build a knowledge graph in Neo4j with a combination of unstructured and structured data sources. You will also learn how to build GraphRAG agents utilizing graph retrieval tools (including Neo4j MCP tools) and agents via Google ADK.
 
 __Agentic GraphRAG Architecture__
 ![](img/graphrag-architecture.png)
 
 
 ## Use Case Example
+__Employee Knowledge Assistant__
 
-We focus specifically on a human resources and talent use case where we consider building a knowledge assistant for skills analysis, search, and team formation.
+**Skills analysis, talent search, and team formation at Cyberdyne Systems**
+- **Skills Analysis:** 
+  - How many Python developers do I have?
+  - Summarize talent and skills distributions
+- **Person Similarities:** Who is most similar to Lucas Martinez?
 
-You'll learn to build an employee knowledge graph using Neo4j, combining resume data and HRIS information while utilizing GraphRAG tools, including MCP tools and agents via Google ADK.
+- **Collaboration & teams:** Which individuals have collaborated to deliver the most AI Things?
+
+
+
+You'll build an employee knowledge graph combining resume and HRIS information.
 
  
 
