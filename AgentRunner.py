@@ -6,7 +6,7 @@ from google.adk.sessions import Session
 from google.genai.types import UserContent, Part
 
 #So I got annoyed copy-pasting the same code over and over in notebooks
-# So I made a Runner to wrap the adk runner...sorry
+# So I made a runner to wrap the adk runner...sorry
 class AgentRunner:
     app_name: str
     user_id: str
@@ -44,7 +44,7 @@ class AgentRunner:
             raise e
 
     async def restart_session(self):
-        await self.end_session()
+        if self.session: await self.end_session()
         await self.start_session()
 
     async def run(self, new_message: str):
