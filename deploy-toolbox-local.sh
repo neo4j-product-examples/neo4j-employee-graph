@@ -4,7 +4,7 @@ curl -O https://storage.googleapis.com/genai-toolbox/v$VERSION/$OS/toolbox
 
 chmod +x toolbox
 
-./toolbox --tools-file "tools.yaml" #you may need to run this a different port if running multiple toolbox servers locally
+./toolbox --tools-file "tools.yaml" # you may need to run this on a different port if running multiple toolbox servers locally. see --help for more details
 
 
 
