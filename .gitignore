@@ -2,3 +2,7 @@ __pycache__/
 *.env
 .DS_Store
 scratch/
+.idea/
+.ipynb_checkpoints/
+toolbox
+tools.yaml

@@ -24,11 +24,7 @@ __Employee Knowledge Assistant__
 
 - **Collaboration & teams:** Which individuals have collaborated to deliver the most AI Things?
 
-
-
 You'll build an employee knowledge graph combining resume and HRIS information.
-
- 
 
 ## Workshop Modules
 
@@ -44,4 +40,7 @@ You will then leverage a Neo4j MCP server to expose natural language querying to
 Learn how you can easily expand to include new sources in a knowledge graph backed by a graph database.  We show how you can add structured data from a Human Resource Information System (HRIS) and connect it to people extracted from the previous unstructured resume docs from module 2.
 
 You will then be able to access additional data to further improve responses and answer more questions.
+
+### Module 4: (Optional) Configure MCP Toolbox Server
+Use [MCP Toolbox](https://neo4j.com/blog/developer/ai-agents-gen-ai-toolbox/) to take all the expert tools from above and package in an MCP server for use by any MCP client.
 
